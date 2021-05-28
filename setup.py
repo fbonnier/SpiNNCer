@@ -12,7 +12,7 @@ install_requires = [
     "argparse",
     "elephant==0.6.2",
     "colorama",
-    "pandas==0.23.4",
+    "pandas",
     "hilbertcurve"
 ]
 
