@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 
 install_requires = [
-    "numpy==1.15.4",
-    "scipy==1.3.0",
+    "numpy",
+    "scipy",
     "brian2",
     "neo==0.7.1",
     "pynn==0.9.5",
