@@ -312,8 +312,8 @@ np.savez_compressed(results_file,
 sim.end()
 
 # Analysis time!
-spike_analysis(results_file=results_file, fig_folder=args.figures_dir,
-               worst_case=args.worst_case_spikes, delay_sensitive=True)
+# spike_analysis(results_file=results_file, fig_folder=args.figures_dir,
+#               worst_case=args.worst_case_spikes, delay_sensitive=True)
 
 # Report time taken
 print("Results stored in  -- " + filename)
